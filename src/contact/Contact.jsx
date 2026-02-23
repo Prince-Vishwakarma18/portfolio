@@ -69,6 +69,7 @@ function Contact() {
                         />
 
                         <select name="role"
+                            required
                             className="p-3 border border-white/10 rounded-lg appearance-none bg-gray-950 font-medium outline-none  "
                         >
                             <option value="">Select Role</option>
