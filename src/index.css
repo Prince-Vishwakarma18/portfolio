@@ -1,0 +1,15 @@
+@keyframes snow {
+  to {
+    transform: translateY(180vh);
+  }
+}
+
+.animate-snow {
+  animation-name: snow;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
