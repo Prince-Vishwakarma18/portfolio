@@ -19,8 +19,8 @@ const projects = [
         description:
             "A real-time chat application built using MERN stack with socket.io for instant messaging and authentication.",
         image: portfolio,
-        live: "https://chatify-18.onrender.com/",
-        github: "https://github.com/Prince-Vishwakarma18/chatify",
+        live: "https://portfolio-ten-silk-hskl3toe1m.vercel.app/",
+        github: "https://github.com/Prince-Vishwakarma18/portfolio",
     },
 ];
 
