@@ -17,7 +17,7 @@ const projects = [
     {
         title: "PORTFOLIO",
         description:
-            "A real-time chat application built using MERN stack with socket.io for instant messaging and authentication.",
+            "A modern, responsive developer portfolio built with React, Vite, and Tailwind CSS featuring my MERN stack projects, skills, and EmailJS contact form.",
         image: portfolio,
         live: "https://portfolio-ten-silk-hskl3toe1m.vercel.app/",
         github: "https://github.com/Prince-Vishwakarma18/portfolio",
