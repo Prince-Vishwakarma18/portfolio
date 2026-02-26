@@ -33,18 +33,16 @@ function Project() {
 
             <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
                 {projects.map((project, index) => (
-                  <Tilt key={index}>
+                    <Tilt key={index}>
                         <div
                             className="backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl overflow-hidden transition-all duration-400 hover:shadow-blue-500/30"
                         >
-                            {/* Image */}
                             <img
                                 src={project.image}
                                 alt={project.title}
                                 className="h-28 md:h-44 w-full object-cover md:object-contain object-top"
                             />
 
-                            {/* Content */}
                             <div className="p-6 text-center">
                                 <h2 className="text-lg font-bold mb-3">
                                     {project.title}
@@ -75,7 +73,7 @@ function Project() {
                                 </div>
                             </div>
                         </div>
-                  </Tilt>
+                    </Tilt>
                 ))}
             </div>
         </section>

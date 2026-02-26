@@ -6,28 +6,26 @@ import AOS from "aos";
 
 function About() {
     return (
-        <section  className="py-15 md:px-16 text-white">
+        <section className="py-15 md:px-16 text-white">
             <h1 className="text-4xl py-7 md:text-5xl text-center font-extrabold tracking-wide">
                 About <span className="text-blue-500">Me</span>
             </h1>
 
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
 
-                {/* Profile Image */}
+                {/* profile Img */}
                 <div className="w-72 h-72 md:w-[380px] md:h-[380px] flex-shrink-0">
                     <div className="w-full h-full rounded-full overflow-hidden border border-white/20 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-blue-500/30">
                         <img
-                            className="w-full h-full scale-75 "  
+                            className="w-full h-full scale-75 "
                             src={profile2}
                             alt="Profile"
                         />
                     </div>
                 </div>
 
-                {/* Profile + Education */}
+                {/* profile section */}
                 <div className="max-w-xl text-center px-2 md:px-0 md:text-left">
-
-                    {/* Profile Section */}
                     <div className="mb-2">
                         <h2 className="text-2xl font-bold mb-3 ">
                             Prince <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600/10 text-transparent bg-clip-text">Vishwakarma</span>
@@ -37,7 +35,7 @@ function About() {
                         </p>
                     </div>
 
-                    {/* Education Section */}
+                    {/* education section */}
                     <div className="px-2 md:px-0">
                         <h3 className="text-xl font-semibold mb-3 text-blue-400">
                             Education

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaLinkedin , FaGithub } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 function Footer() {
     return (
@@ -61,7 +61,6 @@ function Footer() {
 
             </div>
 
-            {/* Copyright */}
             <p className="text-sm text-gray-500">
                 © {new Date().getFullYear()} Prince Vishwakarma. All rights reserved.
             </p>

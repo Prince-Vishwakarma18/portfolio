@@ -28,7 +28,6 @@ function Navbar() {
         <>
             {/* Navbar */}
             <nav className="fixed top-0 left-0 w-full h-16 z-50 flex justify-between items-center px-6 bg-gray-950 text-white border-b border-gray-800 shadow-md">
-                {/* Logo */}
                 <h1 className="font-black text-xl">
                     PRINCE {" "}
                     <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600/10 text-transparent bg-clip-text">
@@ -59,7 +58,7 @@ function Navbar() {
                         </a>
                     </li>
 
-                    {/* Resume Button */}
+                    {/* Resume Btn */}
                     <li>
                         <a
                             href={resume}
@@ -72,13 +71,12 @@ function Navbar() {
                     </li>
                 </ul>
 
-                {/* Mobile Menu Icon */}
+                {/* Mobile Menu */}
                 <div onClick={handleToggle} className="md:hidden text-2xl cursor-pointer">
                     <TiThMenu />
                 </div>
             </nav>
 
-            {/* Mobile Menu */}
             {openMenu && (
                 <div className="md:hidden fixed top-16 left-0 w-full bg-gray-950 text-white px-6 py-6 space-y-5 z-40 shadow-lg">
                     <a href="#home" onClick={handleToggle} className="block text-lg hover:text-violet-400 transition">
@@ -93,7 +91,6 @@ function Navbar() {
                     <a href="#contact" onClick={handleToggle} className="block text-lg hover:text-violet-400 transition">
                         Contact
                     </a>
-                    {/* Mobile Resume Button */}
                     <a
                         href={resume}
                         download="Prince_Vishwakarma_Resume.pdf"

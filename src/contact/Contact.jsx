@@ -94,9 +94,6 @@ function Contact() {
                     >
                         {loading ? "Sending..." : "Send Message"}
                     </button>
-
-
-
                 </form>
 
             </div>

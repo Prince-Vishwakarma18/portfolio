@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaReact, FaNodeJs, FaHtml5, FaJs } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import resume from "../assets/Prince_Vishwakarma_Resume.pdf";
-import profile2 from "../assets/profile2.jpeg"
+import profile2 from "../assets/profile2.jpeg";
 
 const Snow = () => {
     const snowArray = new Array(50).fill(0);
@@ -79,7 +79,7 @@ function Hero() {
                 </div>
             </div>
 
-                    {/* Profile Img */}
+            {/* Profile Img */}
             <Tilt >
                 <div className="relative mt-22 md:mt-0 w-72 h-72 md:w-[380px] md:h-[380px] flex items-center justify-center">
 
@@ -91,7 +91,7 @@ function Hero() {
                         />
                     </div>
 
-                    {/* Tech Icons */}
+                    {/* Tech Icon */}
                     <div className="absolute -top-11 left-1/2 -translate-x-1/2 text-4xl text-blue-400">
                         <FaReact />
                     </div>
