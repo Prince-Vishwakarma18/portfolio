@@ -87,7 +87,7 @@ function Hero() {
                         <img
                             src={profile2}
                             alt="Profile"
-                            className="w-full h-full object-cover scale-125 object-bottom"
+                            className="w-full h-full object-cover scale-100 object-top"
                         />
                     </div>
 

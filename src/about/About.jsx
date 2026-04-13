@@ -1,5 +1,5 @@
 import React from "react";
-import profile2 from "../assets/profile.png"
+import profile from "../assets/profile2.jpeg"
 import AOS from "aos";
 
 
@@ -17,8 +17,8 @@ function About() {
                 <div className="w-72 h-72 md:w-[380px] md:h-[380px] flex-shrink-0">
                     <div className="w-full h-full rounded-full overflow-hidden border border-white/20 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-blue-500/30">
                         <img
-                            className="w-full h-full scale-75 "
-                            src={profile2}
+                            className="w-full h-full scale-75 rounded-full "
+                            src={profile}
                             alt="Profile"
                         />
                     </div>

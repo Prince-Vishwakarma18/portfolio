@@ -2,12 +2,13 @@ import React from "react";
 import chatify from "../assets/chatify.jpg";
 import Tilt from 'react-parallax-tilt';
 import portfolio from "../assets/pj2.jpg"
+import quickbite from "../assets/pj3.jpg"
 
 
 
 const projects = [
     {
-        title: "CHATIFY : REAL-TIME CHAT APP",
+        title: "CHATIFY : REAL-TIME CHAT APPLICATION",
         description:
             "A real-time chat application built using MERN stack with socket.io for instant messaging and authentication.",
         image: chatify,
@@ -22,6 +23,13 @@ const projects = [
         live: "https://portfolio-ten-silk-hskl3toe1m.vercel.app/",
         github: "https://github.com/Prince-Vishwakarma18/portfolio",
     },
+    {
+        title: "QUICKBITE : FOOD DELIVERY APPLICATION",
+        description:"A full-stack food delivery web app built with the MERN stack, featuring real-time order tracking, role-based dashboards for customers, restaurants, and delivery partners, and integrated Razorpay payments.",
+        image: quickbite,
+        live: "https://quickbite-18.onrender.com/",
+        github: "https://github.com/Prince-Vishwakarma18/QuickBite",
+    },
 ];
 
 function Project() {
@@ -35,12 +43,12 @@ function Project() {
                 {projects.map((project, index) => (
                     <Tilt key={index}>
                         <div
-                            className="backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl overflow-hidden transition-all duration-400 hover:shadow-blue-500/30"
+                            className="backdrop-blur-lg border border-white/10 rounded-xl p-1 shadow-xl overflow-hidden transition-all duration-400 hover:shadow-blue-500/30"
                         >
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="h-28 md:h-44 w-full object-cover md:object-contain object-top"
+                                className="w-full object-center md:object-contain rounded "
                             />
 
                             <div className="p-6 text-center">
